@@ -1,0 +1,8 @@
+R=input('enter r');
+  D=input('enter d');
+R1=.7785*R;
+L=2*(10^-7)*log(D/Rl);
+L1= L*(10^6);
+c=(2*pi*8.85*10^(-12))/log(D/R1);
+fprintf('\n value of inductance=%d h/m\n',L);
+fprintf('\n value of capatitence =%d/m\n',c);
